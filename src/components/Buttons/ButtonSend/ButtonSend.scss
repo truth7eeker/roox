@@ -1,0 +1,19 @@
+.button-send {
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: "Roboto", sans-serif;
+    border: none;
+    color: #fff;
+    padding: 5px 15px;
+    width: 10%;
+    margin-left: 90%;
+}
+
+
+.button-send-disabled {
+    background-color: #AFAFAF;
+}
+
+.button-send-active {
+    background-color: #52CF4F;
+}
