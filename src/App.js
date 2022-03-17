@@ -52,7 +52,6 @@ function App() {
     setUsers(filtered)
   }
 
-
   // Get user info 
   const getUser = (user) => {
     setUserInfo(user)
@@ -65,8 +64,8 @@ function App() {
      <Sidebar filterByCity={filterByCity} filterByCompany={filterByCompany} />
      {users ?
      <Routes>
-         <Route path='/' exact element={<UsersList users={users} getUser={getUser} />} />
-         <Route path='/user-profile' element={<UserProfile users={users} userInfo={userInfo} />} />
+         <Route path='/roox' exact element={<UsersList users={users} getUser={getUser} />} />
+         <Route path='roox/user-profile' element={<UserProfile users={users} userInfo={userInfo} />} />
     </Routes>
     :
     <p className='loader'>Loading...</p>
