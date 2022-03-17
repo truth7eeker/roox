@@ -7,7 +7,6 @@ function UserProfile(props) {
     <>
       <Main>
         <Form userInfo={props.userInfo}></Form> 
-       
       </Main>
     </>
   )
